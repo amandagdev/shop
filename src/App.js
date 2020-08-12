@@ -1,15 +1,15 @@
 import React from 'react'
-import { HashRouter } from 'react-router-dom'
+import { BrowserRouter } from 'react-router-dom'
 import Route from './routes'
 import CartProvider from './hooks/index'
 
 const App = () => (
   <>
-    <HashRouter>
+    <BrowserRouter>
       <CartProvider>
         <Route />
       </CartProvider>
-    </HashRouter>
+    </BrowserRouter>
   </>
 )
 
