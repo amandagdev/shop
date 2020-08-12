@@ -1,0 +1,43 @@
+.header {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.7rem 0;
+  width: 95%;
+  max-width: 81rem;
+  margin: 0 auto;
+}
+
+.header__logo {
+  width: 7.5rem;
+}
+
+.header__cart {
+  position: relative;
+}
+
+.header__cart img {
+  width: 2.5rem;
+  position: relative;
+  transform: scaleX(-1);
+}
+
+.header__cart--items {
+  width: 1.313rem;
+  height: 1.313rem;
+  background-color: #df3828;
+  font-size: 0.6rem;
+  border-radius: 3.125rem;
+  position: absolute;
+  top: 0.5rem;
+  right: 0.6rem;
+}
+
+.header__cart--items span {
+  top: 0.30rem;
+  position: absolute;
+  right: 0.5rem;
+  color: #fff;
+}
+

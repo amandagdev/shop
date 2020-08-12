@@ -1,0 +1,20 @@
+.button__primary {
+  background-color: var(--primary-color);
+  color: #fff;
+  border-radius: 3.125rem;
+}
+
+.button__transparent {
+  background-color: transparent;
+}
+
+.button__count {
+  background-color: #fff;
+  padding: 0;
+  background-color: transparent;
+}
+
+.button__cart {
+  background-color: var(--primary-color);
+  color: #fff;
+}
