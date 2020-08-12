@@ -5,7 +5,7 @@
 <p align="justify">O desafio consiste em implementar uma listagem de produtos que permita adicionar produtos no carrinho, ver e manipular a quantidade de items no carrinho. </p>
 
 ## Deploy: 
-https://products-shop.netlify.app/
+https://amandagdev.github.io/shop/
 
 ## Libs utilizadas 
 - [X] React 
@@ -30,7 +30,7 @@ Instale as dependências:
 > npm install ou yarn install
 
 Execute a aplicação:
-> yarn dev
+> npm start ou yarn start
 
 Caso a aplicação rode normalmente, estará disponível em localhost:3000
 
