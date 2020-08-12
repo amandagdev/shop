@@ -11,7 +11,7 @@ export default function Home () {
 
   useEffect(() => {
     request('products')
-  }, [])
+  }, [request])
 
   const cartToggle = () => {
     setShow((toggle) => !toggle)
