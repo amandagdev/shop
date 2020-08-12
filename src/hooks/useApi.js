@@ -11,7 +11,7 @@ const useApi = () => {
     } catch (err) {
       console.log(err)
     }
-  }, [])
+  }, [request])
   return {
     data,
     request
