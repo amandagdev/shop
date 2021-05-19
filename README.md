@@ -4,9 +4,6 @@
 
 <p align="justify">O desafio consiste em implementar uma listagem de produtos que permita adicionar produtos no carrinho, ver e manipular a quantidade de items no carrinho. </p>
 
-## Deploy: 
-https://products-shop.netlify.app/
-
 ## Libs utilizadas 
 - [X] React 
 - [X] React Router Dom
